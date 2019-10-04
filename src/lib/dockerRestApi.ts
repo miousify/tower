@@ -1,4 +1,4 @@
-/// <reference path="../../../node_modules/axios/index.d.ts"/>
+/// <reference path="../../node_modules/axios/index.d.ts"/>
 
 import * as axios from "axios";
 
@@ -15,7 +15,6 @@ let axiosInstance = axios.default.create({
 })
 ///v1.18
 class DockerRestApi implements DockerApi {
-
     createService(data): Promise<any> {
         return new Promise(function (res, rej) {
             axiosInstance.post("/services/create", data).then(response => {
@@ -30,14 +29,20 @@ class DockerRestApi implements DockerApi {
     }
 
     updateService(store_id: string, data: object): Promise<any> {
-        return new Promise(function (res, rej) {
-            axiosInstance.post(`services/${store_id}/update`, data).then(response => {
-                console.log(response.data)
-                res(response.data)
-            }).catch(err => {
-                console.log(err)
-                rej(err)
-            })
+        return new Promise( function (res, rej) {
+            // get current service version before update
+            axiosInstance.get(`services/${store_id}`).then(getRes=>{
+                let version=getRes.data.Version.Index
+                axiosInstance.post(`services/${store_id}/update?version=${version}`, data).then(response => {
+                    console.log(response.data)
+                    res(response.data)
+                }).catch(err => {
+                    console.log(err)
+                    rej(err)
+                })
+
+            }).catch(err=>console.log(err))
+
         });
     }
 
@@ -67,6 +72,19 @@ class DockerRestApi implements DockerApi {
     killService(store_id): Promise<any> {
         return new Promise(function (res, rej) {
             axiosInstance.delete(`/services/${store_id}`, {}).then(response => {
+                res(response.data)
+            }).then(err => {
+                rej(err)
+            })
+        });
+
+
+    }
+
+
+    getServices(): Promise<any> {
+        return new Promise(function (res, rej) {
+            axiosInstance.get(`/services`, {}).then(response => {
                 res(response.data)
             }).then(err => {
                 rej(err)

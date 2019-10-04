@@ -78,7 +78,7 @@ module.exports = {
     },
     "Mode": {
         "Replicated": {
-            "Replicas": 4
+            "Replicas": 1
         }
     },
     "UpdateConfig": {
@@ -97,11 +97,11 @@ module.exports = {
     },
     "EndpointSpec": {
         "Ports": [
-            // {
-            //     "Protocol": "tcp",
-            //     "PublishedPort": 8080,
-            //     "TargetPort": 80
-            // }
+            {
+                "Protocol": "tcp",
+                // "PublishedPort": 8080,
+                "TargetPort": 3000
+            }
         ]
     },
     "Labels": {
