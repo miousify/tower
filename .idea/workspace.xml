@@ -2,39 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20c54e9d-0dbf-4718-be78-44407ad0d842" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/frontend/includes/theme.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/frontend/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/frontend/layouts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/actions.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/dockerRestApi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/dockerRestApi.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/init.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/job.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/job.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/configuration.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/services.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/data/ServiceData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/ServiceData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/data/ServiceUpdateData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/data/ServiceUpdateData.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/db/models.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/db/models.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/ts/actions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/ts/actions.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/ts/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/actions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/ts/dockerRestApi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/ts/dockerRestApi.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/ts/dockerRestApi.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/dockerRestApi.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/ts/job.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/ts/job.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/ts/job.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/job.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/ts/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/images.js" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/jobs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/jobs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -63,20 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
+            <state relative-caret-position="270">
+              <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -164,8 +123,8 @@
         <option value="$PROJECT_DIR$/src/lib/job.js" />
         <option value="$PROJECT_DIR$/src/lib/job.ts" />
         <option value="$PROJECT_DIR$/src/routes/jobs.js" />
-        <option value="$PROJECT_DIR$/.circleci/config.yml" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/.circleci/config.yml" />
       </list>
     </option>
   </component>
@@ -210,6 +169,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Markdown&#10;Vue" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.0" />
@@ -298,18 +258,18 @@
       <workItem from="1568991924127" duration="62000" />
       <workItem from="1570126494191" duration="4313000" />
       <workItem from="1570190150335" duration="10993000" />
-      <workItem from="1570217888916" duration="5598000" />
+      <workItem from="1570217888916" duration="6832000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68149000" />
+    <option name="totallyTimeSpent" value="69383000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4921191" visible="true" weight="0.23976173" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4921191" visible="true" weight="0.23976173" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.50877196" side_tool="true" weight="0.120625466" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -324,7 +284,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="TypeScript" order="10" weight="0.29304636" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3410596" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.19039735" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -649,17 +609,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
         </state>
       </provider>
     </entry>
